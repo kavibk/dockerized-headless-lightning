@@ -1,0 +1,12 @@
+# OS Generated Files
+.DS_Store
+
+# MariaDB Persistent Data Storage
+mariadb/data
+
+# Drupal Persistent Data Storage
+drupal/data
+
+# Private Configuration Files
+*.env
+settings.php

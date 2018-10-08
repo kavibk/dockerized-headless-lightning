@@ -1,0 +1,51 @@
+version: "3"
+
+services:
+  drupal:
+    build: ./drupal
+    container_name: dhl-drupal
+    restart: always
+
+    env_file:
+      - ./drupal/.env
+      - ./mariadb/.env
+
+    volumes:
+      - ./drupal/data:/opt/headless-lightning
+
+    networks:
+      - backend
+
+  nginx:
+    image: nginx:alpine
+    container_name: dhl-nginx
+    restart: always
+
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./drupal/data:/opt/headless-lightning
+
+    ports:
+      - "80:80"
+
+    networks:
+      - backend
+      - frontend
+
+  mariadb:
+    container_name: dhl-mariadb
+    restart: always
+    image: mariadb:latest
+
+    volumes:
+      - ./mariadb/data:/var/lib/mysql
+
+    env_file:
+      - ./mariadb/.env
+
+    networks:
+      - backend
+
+networks:
+  backend:
+  frontend:
