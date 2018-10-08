@@ -1,5 +1,5 @@
 # dockerized-headless-lightning
-Docker orchestration for Drupal's headless-lightning build.
+This is a fork of Kaden's Docker orchestration for Drupal's headless-lightning build, customized for KAVI.
 
 ### Deploy (these instructions maybe outdated; pm me for details)
 1. Clone the repository
