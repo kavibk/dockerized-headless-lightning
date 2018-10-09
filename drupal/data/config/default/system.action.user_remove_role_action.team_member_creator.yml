@@ -1,0 +1,14 @@
+uuid: 7e42e4cc-7685-4d32-970b-5073f93eb1d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.team_member_creator
+  module:
+    - user
+id: user_remove_role_action.team_member_creator
+label: 'Remove the Team Member creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: team_member_creator

@@ -1,0 +1,11 @@
+uuid: 775fad61-e9d1-4b3f-9447-fa5308fef444
+langcode: en
+status: true
+dependencies: {  }
+name: 'Team Member'
+type: team_member
+description: 'Use this content type to add or edit team members to the Team page of the About Us [02] section.'
+help: 'Add the name of the team member you are describing.'
+new_revision: true
+preview_mode: 0
+display_submitted: false

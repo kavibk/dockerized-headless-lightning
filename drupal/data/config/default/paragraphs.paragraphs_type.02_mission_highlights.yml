@@ -1,0 +1,9 @@
+uuid: 39e46bb4-d504-44a6-bd7d-f3f3823ca8fc
+langcode: en
+status: true
+dependencies: {  }
+id: 02_mission_highlights
+label: '[02] About Us > Mission > Mission Highlights'
+icon_uuid: null
+description: 'This paragraph type is used to create each of the paragraphs you see depicted with an orange heading in the Mission section of [02] About Us.'
+behavior_plugins: {  }

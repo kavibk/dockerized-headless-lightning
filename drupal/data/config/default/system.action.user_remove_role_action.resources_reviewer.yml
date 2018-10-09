@@ -1,0 +1,14 @@
+uuid: 2fe20e43-b617-43ad-805f-e54cc1907acb
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.resources_reviewer
+  module:
+    - user
+id: user_remove_role_action.resources_reviewer
+label: 'Remove the Resources reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: resources_reviewer

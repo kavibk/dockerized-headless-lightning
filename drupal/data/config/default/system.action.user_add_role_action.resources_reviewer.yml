@@ -1,0 +1,14 @@
+uuid: 8cbf32f6-00ee-449e-a0f2-fdcf30983902
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.resources_reviewer
+  module:
+    - user
+id: user_add_role_action.resources_reviewer
+label: 'Add the Resources reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: resources_reviewer

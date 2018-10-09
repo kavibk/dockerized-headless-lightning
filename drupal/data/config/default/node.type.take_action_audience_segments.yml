@@ -1,0 +1,11 @@
+uuid: ee8990ad-4417-4d8e-a920-c1ab796d6280
+langcode: en
+status: true
+dependencies: {  }
+name: 'Take Action > Audience Segments'
+type: take_action_audience_segments
+description: 'Use this content type to add or edit audience segments from the Take Action [06] section.'
+help: 'Add the name of the audience segment you want to represent on the Take Action [06] page. (e.g. Parents, Educators, etc.)'
+new_revision: true
+preview_mode: 0
+display_submitted: false

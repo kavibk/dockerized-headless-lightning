@@ -1,0 +1,30 @@
+uuid: efddb193-52a5-4dc0-b5e9-e0f764b7565c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.programs.body
+    - node.type.programs
+  module:
+    - text
+    - user
+id: node.programs.teaser
+targetEntityType: node
+bundle: programs
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

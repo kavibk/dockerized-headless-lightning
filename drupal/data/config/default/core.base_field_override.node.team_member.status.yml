@@ -1,0 +1,22 @@
+uuid: a68a6b06-417f-47e0-9086-1a22dd888f6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.team_member
+id: node.team_member.status
+field_name: status
+entity_type: node
+bundle: team_member
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

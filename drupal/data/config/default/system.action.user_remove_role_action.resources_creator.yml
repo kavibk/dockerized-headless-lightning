@@ -1,0 +1,14 @@
+uuid: a7f8292e-61d6-4710-8907-9898c5eb7e0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.resources_creator
+  module:
+    - user
+id: user_remove_role_action.resources_creator
+label: 'Remove the Resources creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: resources_creator

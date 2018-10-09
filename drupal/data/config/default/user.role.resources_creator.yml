@@ -1,0 +1,25 @@
+uuid: 452e9bb4-b13b-4128-bb41-a74963d69b1a
+langcode: en
+status: true
+dependencies: {  }
+id: resources_creator
+label: 'Resources creator'
+weight: 7
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access toolbar'
+  - 'create resources content'
+  - 'create url aliases'
+  - 'edit own resources content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view resources revisions'

@@ -1,0 +1,14 @@
+uuid: a19c1594-71fb-437c-bf0c-b94c3c397274
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.team_member_reviewer
+  module:
+    - user
+id: user_add_role_action.team_member_reviewer
+label: 'Add the Team Member reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: team_member_reviewer

@@ -1,0 +1,30 @@
+uuid: c9476b57-03fd-4aa0-b389-ed0537066643
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.take_action_audience_segments.body
+    - node.type.take_action_audience_segments
+  module:
+    - text
+    - user
+id: node.take_action_audience_segments.teaser
+targetEntityType: node
+bundle: take_action_audience_segments
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

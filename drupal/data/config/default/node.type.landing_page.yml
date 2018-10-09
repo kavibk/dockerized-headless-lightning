@@ -1,0 +1,11 @@
+uuid: 456f2fd5-294a-4e9f-8b93-cd91a2101775
+langcode: en
+status: true
+dependencies: {  }
+name: 'Landing Page'
+type: landing_page
+description: 'Use this content type to lay out top-level landing pages. This content type includes fields for changing the header panner, page titles, and paragraphs or blocks contained therein.'
+help: 'Add a title for this page. It will be displayed both in the browser bar and over the selected banner image.'
+new_revision: true
+preview_mode: 0
+display_submitted: false

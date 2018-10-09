@@ -1,0 +1,19 @@
+uuid: 640bd406-09f0-4093-8f0d-2fc06835ee21
+langcode: en
+status: true
+dependencies: {  }
+id: team_member_reviewer
+label: 'Team Member reviewer'
+weight: 14
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'delete any team_member content'
+  - 'edit any team_member content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'view any unpublished content'
+  - 'view latest version'

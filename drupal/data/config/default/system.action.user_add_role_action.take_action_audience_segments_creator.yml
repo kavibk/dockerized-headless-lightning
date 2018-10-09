@@ -1,0 +1,14 @@
+uuid: 3e7e2fdb-ee01-45bf-95da-8cc573d6d2c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.take_action_audience_segments_creator
+  module:
+    - user
+id: user_add_role_action.take_action_audience_segments_creator
+label: 'Add the Take Action &gt; Audience Segments creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: take_action_audience_segments_creator

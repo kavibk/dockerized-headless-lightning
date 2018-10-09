@@ -1,0 +1,14 @@
+uuid: dc5b9473-b850-49ea-80eb-6f47f809fed0
+name: 'Kings Against Violence Initiative'
+mail: tech@kavibrooklyn.org
+slogan: ''
+page:
+  403: /user/login
+  404: ''
+  front: /frontpage
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

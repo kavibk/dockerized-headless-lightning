@@ -1,0 +1,14 @@
+uuid: f46c362a-211f-4daa-b683-60dff31946a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.take_action_audience_segments_reviewer
+  module:
+    - user
+id: user_add_role_action.take_action_audience_segments_reviewer
+label: 'Add the Take Action &gt; Audience Segments reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: take_action_audience_segments_reviewer

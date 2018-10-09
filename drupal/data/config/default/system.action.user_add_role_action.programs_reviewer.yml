@@ -1,0 +1,14 @@
+uuid: 9759fa76-3f94-43e6-abe9-14c49da02612
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.programs_reviewer
+  module:
+    - user
+id: user_add_role_action.programs_reviewer
+label: 'Add the Programs reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: programs_reviewer
