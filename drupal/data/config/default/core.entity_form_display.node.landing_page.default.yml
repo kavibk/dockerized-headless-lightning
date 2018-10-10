@@ -3,32 +3,46 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.landing_page.body
+    - field.field.node.landing_page.field_banner_image
+    - field.field.node.landing_page.field_banner_text
+    - image.style.thumbnail
     - node.type.landing_page
   module:
     - content_moderation
+    - image
     - path
-    - text
 id: node.landing_page.default
 targetEntityType: node
 bundle: landing_page
 mode: default
 content:
-  body:
-    type: text_textarea_with_summary
-    weight: 121
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-    third_party_settings: {  }
-    region: content
   created:
     type: datetime_timestamp
     weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_banner_image:
+    type: entity_browser_file
+    weight: 122
+    settings:
+      entity_browser: image_browser
+      field_widget_edit: true
+      field_widget_remove: true
+      view_mode: default
+      preview_image_style: thumbnail
+      open: true
+      selection_mode: selection_append
+    region: content
+    third_party_settings: {  }
+  field_banner_text:
+    weight: 121
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   moderation_state:
     type: moderation_state_default
     weight: 100
