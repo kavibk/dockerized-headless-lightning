@@ -1,0 +1,28 @@
+uuid: 1a129f54-35d0-4fef-aeda-6ea12a12058c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.programs.body
+    - node.type.programs
+  module:
+    - text
+    - user
+id: node.programs.default
+targetEntityType: node
+bundle: programs
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

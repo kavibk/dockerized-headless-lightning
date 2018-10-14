@@ -1,0 +1,19 @@
+uuid: e6ade473-686b-4959-9165-99c3c5e8e3bb
+langcode: en
+status: true
+dependencies: {  }
+id: resources_reviewer
+label: 'Resources reviewer'
+weight: 8
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'delete any resources content'
+  - 'edit any resources content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'view any unpublished content'
+  - 'view latest version'

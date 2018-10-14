@@ -1,0 +1,19 @@
+uuid: d1778528-7cec-494b-a9d2-e870010f998e
+langcode: en
+status: true
+dependencies: {  }
+id: programs_reviewer
+label: 'Programs reviewer'
+weight: 10
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'delete any programs content'
+  - 'edit any programs content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'view any unpublished content'
+  - 'view latest version'

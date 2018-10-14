@@ -1,0 +1,18 @@
+uuid: 156f2ebd-125a-4da9-abaa-860085879892
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.take_action_audience_segments
+id: node.take_action_audience_segments.title
+field_name: title
+entity_type: node
+bundle: take_action_audience_segments
+label: 'Segment name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

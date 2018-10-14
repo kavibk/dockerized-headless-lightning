@@ -1,0 +1,9 @@
+uuid: fffa86da-fb49-43fa-a1ae-172eb6a987e9
+langcode: en
+status: true
+dependencies: {  }
+id: 03_our_work_testimonials
+label: '[03] Our Work > Testimonials'
+icon_uuid: null
+description: 'Use this paragraph type to add testimonials to the testimonials page in the [03] Our Work section.'
+behavior_plugins: {  }

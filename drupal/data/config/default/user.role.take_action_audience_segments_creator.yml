@@ -1,0 +1,25 @@
+uuid: aa266c00-13ef-42b0-adbc-73bc5c0f8f37
+langcode: en
+status: true
+dependencies: {  }
+id: take_action_audience_segments_creator
+label: 'Take Action > Audience Segments creator'
+weight: 15
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access toolbar'
+  - 'create take_action_audience_segments content'
+  - 'create url aliases'
+  - 'edit own take_action_audience_segments content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view take_action_audience_segments revisions'

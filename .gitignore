@@ -5,7 +5,7 @@
 mariadb/data
 
 # Drupal Persistent Data Storage
-drupal/data
+# drupal/data
 
 # Private Configuration Files
 *.env

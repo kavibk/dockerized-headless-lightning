@@ -1,0 +1,25 @@
+uuid: f66dadb1-f01f-4a69-af01-6ac67a025f5a
+langcode: en
+status: true
+dependencies: {  }
+id: landing_page_creator
+label: 'Landing Page creator'
+weight: 11
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access toolbar'
+  - 'create landing_page content'
+  - 'create url aliases'
+  - 'edit own landing_page content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view landing_page revisions'
+  - 'view latest version'
+  - 'view own unpublished content'

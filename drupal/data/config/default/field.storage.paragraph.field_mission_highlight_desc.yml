@@ -1,0 +1,19 @@
+uuid: a73ab37a-a325-4050-bb0e-2a51e7b51b85
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_mission_highlight_desc
+field_name: field_mission_highlight_desc
+entity_type: paragraph
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

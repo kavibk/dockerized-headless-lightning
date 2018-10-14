@@ -1,0 +1,22 @@
+uuid: 619aabe8-725c-4f75-bafc-9ca100b17c01
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.take_action_audience_segments
+id: node.take_action_audience_segments.status
+field_name: status
+entity_type: node
+bundle: take_action_audience_segments
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

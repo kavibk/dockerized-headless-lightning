@@ -1,0 +1,14 @@
+uuid: 13ee5ff5-5df5-4423-bf81-d7c6f09bade6
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.take_action_audience_segments_creator
+  module:
+    - user
+id: user_remove_role_action.take_action_audience_segments_creator
+label: 'Remove the Take Action &gt; Audience Segments creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: take_action_audience_segments_creator

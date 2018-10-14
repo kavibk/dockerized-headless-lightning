@@ -1,0 +1,14 @@
+uuid: c7ece058-49e7-4fdb-aa18-e7c7003e2e64
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.resources_creator
+  module:
+    - user
+id: user_add_role_action.resources_creator
+label: 'Add the Resources creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: resources_creator

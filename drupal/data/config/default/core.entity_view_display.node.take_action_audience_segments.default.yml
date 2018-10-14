@@ -1,0 +1,28 @@
+uuid: 1b145806-7cce-48f5-bde2-fc8743c0be29
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.take_action_audience_segments.body
+    - node.type.take_action_audience_segments
+  module:
+    - text
+    - user
+id: node.take_action_audience_segments.default
+targetEntityType: node
+bundle: take_action_audience_segments
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,14 @@
+uuid: 15ee3013-3800-4b1e-b4b3-bad3922f42c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.programs_reviewer
+  module:
+    - user
+id: user_remove_role_action.programs_reviewer
+label: 'Remove the Programs reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: programs_reviewer

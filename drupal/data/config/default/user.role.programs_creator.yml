@@ -1,0 +1,25 @@
+uuid: e8b4353a-5c7d-4d7d-afe8-31db5febe267
+langcode: en
+status: true
+dependencies: {  }
+id: programs_creator
+label: 'Programs creator'
+weight: 9
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access toolbar'
+  - 'create programs content'
+  - 'create url aliases'
+  - 'edit own programs content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view programs revisions'

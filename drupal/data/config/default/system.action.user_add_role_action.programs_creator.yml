@@ -1,0 +1,14 @@
+uuid: ccdd7f72-92a5-47b7-8413-fe4d44218e07
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.programs_creator
+  module:
+    - user
+id: user_add_role_action.programs_creator
+label: 'Add the Programs creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: programs_creator
