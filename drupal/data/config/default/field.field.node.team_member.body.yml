@@ -11,8 +11,8 @@ id: node.team_member.body
 field_name: body
 entity_type: node
 bundle: team_member
-label: Body
-description: ''
+label: 'Team member bio'
+description: 'Add the bio for the team member you are describing. A summary will be automatically generated from the full text, but if you''d like more control over what appears before the "Read more", click `edit summary` to adjust.'
 required: false
 translatable: true
 default_value: {  }

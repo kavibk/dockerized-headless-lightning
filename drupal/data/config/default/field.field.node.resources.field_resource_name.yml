@@ -1,0 +1,19 @@
+uuid: 93192a35-e3a1-4ee4-8d3f-bd8f0024fd56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resource_name
+    - node.type.resources
+id: node.resources.field_resource_name
+field_name: field_resource_name
+entity_type: node
+bundle: resources
+label: 'Resource name'
+description: 'Name the resource you''d like to list on the [04] Resources page.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

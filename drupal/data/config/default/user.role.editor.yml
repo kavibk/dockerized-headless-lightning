@@ -1,0 +1,29 @@
+uuid: 66bb5e14-73c1-4e63-a40a-06da13100df5
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    description: 'This is an editorial role with the permission to edit or create any content type.'
+id: editor
+label: Editor
+weight: 17
+is_admin: null
+permissions:
+  - 'access content'
+  - 'administer blocks'
+  - 'administer media'
+  - 'administer menu'
+  - 'administer nodes'
+  - 'delete all revisions'
+  - 'revert all revisions'
+  - 'use editorial transition archive'
+  - 'use editorial transition archived_published'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'view all revisions'
+  - 'view latest version'
+  - 'view own unpublished content'
