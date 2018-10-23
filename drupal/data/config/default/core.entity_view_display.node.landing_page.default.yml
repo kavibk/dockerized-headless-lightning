@@ -3,10 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.landing_page.body
     - field.field.node.landing_page.field_banner_image
     - field.field.node.landing_page.field_banner_text
+    - field.field.node.landing_page.field_configurable_item
     - node.type.landing_page
   module:
+    - entity_reference_revisions
     - image
     - user
 id: node.landing_page.default
@@ -30,6 +33,15 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_configurable_item:
+    type: entity_reference_revisions_entity_view
+    weight: 103
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
     region: content
   links:
     weight: 100

@@ -1,0 +1,41 @@
+uuid: 2a4c049c-a66b-465d-a5ee-15658b0d9e0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_configurable_item
+    - node.type.landing_page
+    - paragraphs.paragraphs_type.02_mission_highlights
+    - paragraphs.paragraphs_type.03_our_work_testimonials
+    - paragraphs.paragraphs_type._01_landing_page_splash_text
+  module:
+    - entity_reference_revisions
+id: node.landing_page.field_configurable_item
+field_name: field_configurable_item
+entity_type: node
+bundle: landing_page
+label: 'Configurable item'
+description: 'Add a configurable item, like testimonials, mission highlights, or other entities. You can add as few or as many as you like. The item numbers correspond with the pages of the wireframe where they can be found.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      02_mission_highlights: 02_mission_highlights
+      03_our_work_testimonials: 03_our_work_testimonials
+      _01_landing_page_splash_text: _01_landing_page_splash_text
+    target_bundles_drag_drop:
+      02_mission_highlights:
+        enabled: true
+        weight: 4
+      03_our_work_testimonials:
+        enabled: true
+        weight: 5
+      _01_landing_page_splash_text:
+        enabled: true
+        weight: 6
+field_type: entity_reference_revisions

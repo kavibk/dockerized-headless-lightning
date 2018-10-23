@@ -3,13 +3,16 @@ langcode: en
 status: true
 dependencies:
   config:
+    - entity_browser.browser.image_browser
+    - field.field.node.landing_page.body
     - field.field.node.landing_page.field_banner_image
     - field.field.node.landing_page.field_banner_text
-    - image.style.thumbnail
+    - field.field.node.landing_page.field_configurable_item
     - node.type.landing_page
   module:
     - content_moderation
-    - image
+    - entity_browser
+    - paragraphs
     - path
 id: node.landing_page.default
 targetEntityType: node
@@ -42,6 +45,18 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
+  field_configurable_item:
+    type: entity_reference_paragraphs
+    weight: 123
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
     region: content
   moderation_state:
     type: moderation_state_default
@@ -93,4 +108,5 @@ content:
       placeholder: ''
     region: content
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  body: true

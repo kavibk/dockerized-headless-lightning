@@ -1,0 +1,21 @@
+uuid: 1338982b-87a4-4216-9d1e-efe5d4626dca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_testimonial_subheading
+    - paragraphs.paragraphs_type.03_our_work_testimonials
+id: paragraph.03_our_work_testimonials.field_testimonial_subheading
+field_name: field_testimonial_subheading
+entity_type: paragraph
+bundle: 03_our_work_testimonials
+label: 'Testimonial subheading'
+description: 'Optionally add a subheading for context; it is ok to skip this if you don''t have one.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Reflecting on her high school graduation'
+default_value_callback: ''
+settings: {  }
+field_type: string

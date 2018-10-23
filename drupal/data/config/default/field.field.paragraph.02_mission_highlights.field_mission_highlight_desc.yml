@@ -1,0 +1,21 @@
+uuid: a3957494-74dd-4406-b574-92cadb7d7502
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_mission_highlight_desc
+    - paragraphs.paragraphs_type.02_mission_highlights
+id: paragraph.02_mission_highlights.field_mission_highlight_desc
+field_name: field_mission_highlight_desc
+entity_type: paragraph
+bundle: 02_mission_highlights
+label: Description
+description: 'This is the text that follows the mission highlight heading. This will be rendered as normal body text.'
+required: false
+translatable: false
+default_value:
+  -
+    value: "Example: Taking a public health approach to ending violence means addressing all the factors that contribute to violence, rather than focusing only on disciplining and/or policing our young people. We rely on data, prevention and youth-and community-driven solutions to help build a safer and stronger central Brooklyn.\r\n"
+default_value_callback: ''
+settings: {  }
+field_type: string_long
