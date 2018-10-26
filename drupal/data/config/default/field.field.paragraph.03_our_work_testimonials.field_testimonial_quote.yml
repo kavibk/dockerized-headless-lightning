@@ -1,0 +1,21 @@
+uuid: 136ad5dd-5148-459e-bf38-881880de8bfa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_testimonial_quote
+    - paragraphs.paragraphs_type.03_our_work_testimonials
+id: paragraph.03_our_work_testimonials.field_testimonial_quote
+field_name: field_testimonial_quote
+entity_type: paragraph
+bundle: 03_our_work_testimonials
+label: 'Testimonial quote'
+description: 'Enter the content for this testimonial.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Example: Thank you SO much for all you''ve done! I couldn''t have done this without KAVI. Seriously, thank you for everything.'
+default_value_callback: ''
+settings: {  }
+field_type: string_long

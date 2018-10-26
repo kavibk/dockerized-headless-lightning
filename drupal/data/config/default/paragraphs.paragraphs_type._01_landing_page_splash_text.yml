@@ -1,0 +1,9 @@
+uuid: 55aa9504-9274-4945-a985-e95832b6b25f
+langcode: en
+status: true
+dependencies: {  }
+id: _01_landing_page_splash_text
+label: '[01] Landing Page > Splash Text'
+icon_uuid: null
+description: 'Add a splash area that features large text with a link underneath (as seen in [01] Landing Page beneath the ''Interventions'' section.)'
+behavior_plugins: {  }

@@ -1,0 +1,23 @@
+uuid: b8ba7628-814d-4156-b078-a65aa3adf324
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_banner_cta
+    - node.type.landing_page
+  module:
+    - link
+id: node.landing_page.field_banner_cta
+field_name: field_banner_cta
+entity_type: node
+bundle: landing_page
+label: 'Banner CTA'
+description: 'You may use this field to add a link to the banner, like the one depicted on the homepage wireframe [01] that says <i>Join us<i>.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

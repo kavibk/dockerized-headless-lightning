@@ -10,10 +10,12 @@ field_name: field_banner_text
 entity_type: node
 bundle: landing_page
 label: 'Banner text'
-description: 'This is the text that displays on top of the banner image on each landing page. It can be a short title, like "About Us", or a longer heading [255 characters maximum]'
+description: "This is the text that displays on the banner image for each landing page. It can be a short title, like \"About Us\", or a longer heading [255 characters maximum]\r\nYou can highlight text if you want it to stand out by using `backticks`(usually under your ESC key!)"
 required: false
 translatable: false
-default_value: {  }
+default_value:
+  -
+    value: 'KAVI works with youth and community to help build a safer and stronger central Brooklyn by empowering youth, managing conflict and increasing opportunity.'
 default_value_callback: ''
 settings: {  }
 field_type: string

@@ -3,17 +3,33 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.landing_page.field_banner_cta
     - field.field.node.landing_page.field_banner_image
     - field.field.node.landing_page.field_banner_text
+    - field.field.node.landing_page.field_configurable_item
     - node.type.landing_page
   module:
+    - entity_reference_revisions
     - image
+    - link
     - user
 id: node.landing_page.default
 targetEntityType: node
 bundle: landing_page
 mode: default
 content:
+  field_banner_cta:
+    weight: 104
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
   field_banner_image:
     weight: 102
     label: above
@@ -31,10 +47,18 @@ content:
     third_party_settings: {  }
     type: string
     region: content
+  field_configurable_item:
+    type: entity_reference_revisions_entity_view
+    weight: 103
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
   links:
     weight: 100
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden:
-  body: true
+hidden: {  }

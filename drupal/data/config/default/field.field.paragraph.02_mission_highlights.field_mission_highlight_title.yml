@@ -1,0 +1,21 @@
+uuid: 9975541d-109f-4fdd-ab9d-d02ed1260dc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_mission_highlight_title
+    - paragraphs.paragraphs_type.02_mission_highlights
+id: paragraph.02_mission_highlights.field_mission_highlight_title
+field_name: field_mission_highlight_title
+entity_type: paragraph
+bundle: 02_mission_highlights
+label: Heading
+description: 'This heading will be rendered as a large, distinctive paragraph lead. It should summarize the aspect of the mission you''re looking to highlight in the subsequent paragraph.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Example: We take a public health approach to ending violence.'
+default_value_callback: ''
+settings: {  }
+field_type: string_long

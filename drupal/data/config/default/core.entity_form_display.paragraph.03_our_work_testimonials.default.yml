@@ -1,0 +1,50 @@
+uuid: 5e5e69ea-72e3-4c96-83bd-59b0f90747c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.03_our_work_testimonials.field_testimonial_quote
+    - field.field.paragraph.03_our_work_testimonials.field_testimonial_source_name
+    - field.field.paragraph.03_our_work_testimonials.field_testimonial_subheading
+    - paragraphs.paragraphs_type.03_our_work_testimonials
+  module:
+    - content_moderation
+id: paragraph.03_our_work_testimonials.default
+targetEntityType: paragraph
+bundle: 03_our_work_testimonials
+mode: default
+content:
+  field_testimonial_quote:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_testimonial_source_name:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_testimonial_subheading:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: 'Example: Reflecting on her high school graduation'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 3
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

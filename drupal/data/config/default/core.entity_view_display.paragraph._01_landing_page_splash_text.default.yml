@@ -1,0 +1,20 @@
+uuid: 5ee35e6c-8e5f-4558-b32c-90575f5fcf90
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph._01_landing_page_splash_text.field_splash_text
+    - paragraphs.paragraphs_type._01_landing_page_splash_text
+id: paragraph._01_landing_page_splash_text.default
+targetEntityType: paragraph
+bundle: _01_landing_page_splash_text
+mode: default
+content:
+  field_splash_text:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden: {  }

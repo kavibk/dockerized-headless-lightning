@@ -1,0 +1,21 @@
+uuid: 08876108-44c5-4ba1-85fd-bc832e0db122
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_testimonial_source_name
+field_name: field_testimonial_source_name
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: 641c0425-3ba4-44ba-bd77-a8f8d80c8ae3
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_banner_cta
+field_name: field_banner_cta
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

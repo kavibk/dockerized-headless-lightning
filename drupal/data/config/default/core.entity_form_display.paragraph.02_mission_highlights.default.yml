@@ -1,0 +1,34 @@
+uuid: fe014187-204e-49a0-92da-ab8e1ec0b35a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.02_mission_highlights.field_mission_highlight_desc
+    - field.field.paragraph.02_mission_highlights.field_mission_highlight_title
+    - paragraphs.paragraphs_type.02_mission_highlights
+id: paragraph.02_mission_highlights.default
+targetEntityType: paragraph
+bundle: 02_mission_highlights
+mode: default
+content:
+  field_mission_highlight_desc:
+    type: string_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_mission_highlight_title:
+    type: string_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  moderation_state: true
+  status: true
+  uid: true
