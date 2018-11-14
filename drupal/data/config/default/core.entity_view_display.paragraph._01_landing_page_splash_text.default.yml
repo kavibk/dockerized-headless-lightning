@@ -3,13 +3,28 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph._01_landing_page_splash_text.field_splash_cta
     - field.field.paragraph._01_landing_page_splash_text.field_splash_text
     - paragraphs.paragraphs_type._01_landing_page_splash_text
+  module:
+    - link
 id: paragraph._01_landing_page_splash_text.default
 targetEntityType: paragraph
 bundle: _01_landing_page_splash_text
 mode: default
 content:
+  field_splash_cta:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
   field_splash_text:
     weight: 0
     label: above

@@ -1,0 +1,28 @@
+uuid: 6262a26f-45b3-4348-9c8d-ea45f014c74b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_program_apply
+    - node.type.programs
+  module:
+    - link
+id: node.programs.field_program_apply
+field_name: field_program_apply
+entity_type: node
+bundle: programs
+label: 'Program application link'
+description: 'Add a link to the program application, if applicable.'
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'http://example.com'
+    title: 'Join us'
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

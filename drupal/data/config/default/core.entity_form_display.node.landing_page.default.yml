@@ -14,6 +14,7 @@ dependencies:
     - entity_browser
     - link
     - paragraphs
+    - path
 id: node.landing_page.default
 targetEntityType: node
 bundle: landing_page
@@ -66,6 +67,12 @@ content:
     settings: {  }
     region: content
     third_party_settings: {  }
+  path:
+    type: path
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
@@ -83,7 +90,6 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
-  path: true
   promote: true
   sticky: true
   uid: true

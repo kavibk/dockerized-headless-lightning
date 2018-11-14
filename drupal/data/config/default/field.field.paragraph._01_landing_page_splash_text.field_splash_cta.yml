@@ -1,0 +1,28 @@
+uuid: f0371b76-9f51-46fc-a019-d7e142ed4fce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_splash_cta
+    - paragraphs.paragraphs_type._01_landing_page_splash_text
+  module:
+    - link
+id: paragraph._01_landing_page_splash_text.field_splash_cta
+field_name: field_splash_cta
+entity_type: paragraph
+bundle: _01_landing_page_splash_text
+label: 'Splash CTA'
+description: 'Add link text for the bar beneath the splash text and the URL that you''d like to associate with it.'
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'http://example.com'
+    title: 'Example: How can I help?'
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

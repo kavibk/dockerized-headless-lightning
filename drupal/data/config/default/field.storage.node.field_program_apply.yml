@@ -1,0 +1,19 @@
+uuid: a4ff3c6c-2bc4-400e-a28a-e9401da08271
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_program_apply
+field_name: field_program_apply
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

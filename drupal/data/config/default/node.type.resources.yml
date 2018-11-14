@@ -2,7 +2,7 @@ uuid: 3d4b614e-88ef-451b-9edd-0a854d81e37b
 langcode: en
 status: true
 dependencies: {  }
-name: Resources
+name: Resource
 type: resources
 description: 'Define a resource for display on the resources page [04] and optionally associate forms or other content with that resource.'
 help: 'Define the name of this resource [e.g. tutors, mentors, etc.]'

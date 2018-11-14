@@ -1,0 +1,21 @@
+uuid: eaf3972f-8370-453d-b55d-e41abbaae404
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_program_type
+    - node.type.programs
+  module:
+    - options
+id: node.programs.field_program_type
+field_name: field_program_type
+entity_type: node
+bundle: programs
+label: 'Program type'
+description: 'Please select which type of program this is so that it can display on the appropriate page.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
