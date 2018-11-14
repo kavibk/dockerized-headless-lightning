@@ -17,4 +17,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_resource_description: true
+  field_resource_iamge: true
+  field_resource_name: true

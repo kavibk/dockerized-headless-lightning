@@ -81,3 +81,7 @@ update: 8.6.1
 entity_reference_revisions: 1.5.0
 paragraphs: 1.3.0
 media_library: 8.6.1
+basic_auth: 8.6.1
+hal: 8.6.1
+rest: 8.6.1
+views_ui: 8.6.1

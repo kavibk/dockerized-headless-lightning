@@ -19,5 +19,7 @@ content:
     region: content
 hidden:
   body: true
+  field_banner_cta: true
   field_banner_image: true
   field_banner_text: true
+  field_configurable_item: true
