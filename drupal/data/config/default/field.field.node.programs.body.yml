@@ -11,8 +11,8 @@ id: node.programs.body
 field_name: body
 entity_type: node
 bundle: programs
-label: Body
-description: ''
+label: 'Program description'
+description: 'Use this field to enter descriptive text for this program. Feel free to edit the summary to control what appears above the "read more" link, otherwise, a trimmed version of this will be used.'
 required: false
 translatable: true
 default_value: {  }

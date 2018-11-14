@@ -1,0 +1,19 @@
+uuid: a4d6f0b5-b23a-446f-811d-042b670fc1ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+id: paragraph.field_splash_cta
+field_name: field_splash_cta
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

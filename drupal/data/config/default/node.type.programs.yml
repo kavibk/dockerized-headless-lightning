@@ -2,7 +2,7 @@ uuid: be6b7492-770f-46ae-b78f-06dd86967ee9
 langcode: en
 status: true
 dependencies: {  }
-name: Programs
+name: Program
 type: programs
 description: 'Define a program for display on the program pages in the Our Work [03] section, and optionally associate forms or other content with that program.'
 help: 'Define the name of this program [e.g. KAVI Queens and Kings, KAVI Young Ones, etc.]'
